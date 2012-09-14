@@ -1,0 +1,23 @@
+{
+  "name": "restcomplete",
+  "version": "0.0.5",
+  "description": "Sugar on top of restify and noodles to allow quick REST services launching that will auto document your efforts.",
+  "main": "lib/restcomplete.js",
+  "dependencies": {
+    "noodles": "~0.1.3",
+    "restify": "~1.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "require('restcomplete').Init('/somefolder/containing/services)"
+  },
+  "repository": "",
+  "keywords": [
+    "rest",
+    "documenter",
+    "restify",
+    "noodles"
+  ],
+  "author": "Nathan Sweet",
+  "license": "MIT"
+}
