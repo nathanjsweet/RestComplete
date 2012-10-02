@@ -23,6 +23,7 @@ If this is confusing so far, don't worry, it should be; RestComplete, as a whole
 Documentation
 =============
 Here is an example of what a directory that utilizes RestComplete probably looks like.
+	
 	|-index.js
 	|_node_modules
 		|
