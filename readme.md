@@ -1,5 +1,11 @@
 RestComplete
 ------------
+Installation
+============
+In order to install you have to use npm as their is too much building that needs to take place to make it a "gitable" repo.
+	
+	npm install restcomplete
+	
 
 Introduction
 ============
