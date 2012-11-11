@@ -1,6 +1,6 @@
 {
   "name": "restcomplete",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Sugar on top of restify and noodles to allow quick REST services launching that will auto document your efforts.",
   "main": "lib/restcomplete.js",
   "dependencies": {
