@@ -126,7 +126,7 @@ Finally we are going to look at the "helperfile" that seems to define this funct
 	
 	//Given a request of http://myservice/subsvc1/foo?term=bar
 	exports.service1 = {
-		subServiceGet: function(request,response,next){
+		subServiceGet: function(server,request,response,next){
 			var param1 = request.params["param1"],
 				term = request.params["term"];
 			res.send({
