@@ -2,7 +2,7 @@ RestComplete
 ------------
 Installation
 ============
-In order to install you have to use npm as there is too much building that needs to take place to make it a "gitable" repo.
+In order to install you have to use npm as there is too much building that needs to take place to make it a "gitable" repo. A video tutorial going through the steps of building a rest service with RestComplete can be found [here](https://vimeo.com/52297886).
 	
 	npm install restcomplete
 	
