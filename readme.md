@@ -4,14 +4,13 @@ Installation
 ============
 In order to install you have to use npm as there is too much building that needs to take place to make it a "gitable" repo. A video tutorial going through the steps of building a rest service with RestComplete can be found [here](https://vimeo.com/52297886).
 	
-	npm install restcomplete
+	 npm install restcomplete
 	
 If you insist on checking it out with github. Make sure that you systematize the build command for dtrace-provider in restify. It's going to change based on what system you are on, but it must be part of your build process. Something like this:
 
-   cd node_modules/restcomplete/node_modules/restify/node_modules/dtrace-provider
-   node-waf configure
-   node-waf build
-
+	 cd node_modules/restcomplete/node_modules/restify/node_modules/dtrace-provider
+	 node-waf configure
+	 node-waf build
 
 Introduction
 ============
