@@ -6,6 +6,12 @@ In order to install you have to use npm as there is too much building that needs
 	
 	npm install restcomplete
 	
+If you insist on checking it out with github. Make sure that you systematize the build command for dtrace-provider in restify. It's going to change based on what system you are on, but it must be part of your build process. Something like this:
+
+   cd node_modules/restcomplete/node_modules/restify/node_modules/dtrace-provider
+   node-waf configure
+   node-waf build
+
 
 Introduction
 ============
