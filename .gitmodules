@@ -1,0 +1,6 @@
+[submodule "node_modules/noodles"]
+	path = node_modules/noodles
+	url = git://github.com/nathanjsweet/Noodles.git
+[submodule "node_modules/node-restify"]
+	path = node_modules/node-restify
+	url = git://github.com/mcavage/node-restify.git
