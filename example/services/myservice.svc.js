@@ -1,14 +1,15 @@
 //
 // Node Modules
 //
-var helpService	=	require('./helperfile'),
-	config 		= require('./config');
+var helpService	=	require('./helperfile.js'),
+	config 		= require('./config.js');
 
 var service = module.exports = {
 	name: 'Service 1 API',
 	root:'', //this could be a further path parameter 
 	version: '0.0.1',
 	docPage:'service1',
+        intro: 'This is a service that does foo.',
 	services:{}
 };
 

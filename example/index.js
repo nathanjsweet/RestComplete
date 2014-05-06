@@ -1,2 +1,2 @@
 var path = require('path');
-require('restcomplete').Init(path.join(__dirname,'services'));
+require('../lib/restcomplete.js').Init(path.join(__dirname,'services'));
