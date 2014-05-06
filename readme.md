@@ -84,6 +84,7 @@ As you can see the "config.js" is pretty simple it simply outlines what port and
 		root:'', //this could be a further path parameter 
 		version: '0.0.1',
 		docPage:'service1',
+		intro: 'This is an intro for the service',
 		services:{}
 	};
 
